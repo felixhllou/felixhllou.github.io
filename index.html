@@ -67,6 +67,24 @@
         </header>
 
         <article class="col-md-4">
+            <img class="img-responsive img-rounded img-thumbnail cursor-hover"
+                 src="img/customer_review.png" alt="capstone_project" data-toggle="modal" data-target="#sentiment_analysis">
+            <h3 class="title">Sentiment Analysis of Customers' Reviews</h3>
+        </article>
+
+        <article class="col-md-4">
+            <img class="img-responsive img-rounded img-thumbnail cursor-hover"
+                 src="img/drone.png" alt="rl_project" data-toggle="modal" data-target="#teach_quadcopter">
+            <h3 class="title">Teach a Quadcopter How to Fly</h3>
+        </article>
+
+        <article class="col-md-4">
+            <img class="img-responsive img-rounded img-thumbnail cursor-hover"
+                 src="img/ab_test.png" alt="consultation_project" data-toggle="modal" data-target="#ab_test">
+            <h3 class="title">A/B Testing on New Order Allocation System</h3>
+        </article>
+
+        <article class="col-md-4">
             <img class="img-responsive img-rounded img-thumbnail cursor-hover" data-toggle="modal"
                  data-target="#finding_donors"
                  src="img/charity_donor.png" alt="supervised_learning_project">
@@ -101,12 +119,6 @@
             <img class="img-responsive img-rounded img-thumbnail cursor-hover"
                  src="img/face_generation.png" alt="gan_project" data-toggle="modal" data-target="#face_generation">
             <h3 class="title">Face Generation</h3>
-        </article>
-
-        <article class="col-md-4">
-            <img class="img-responsive img-rounded img-thumbnail cursor-hover"
-                 src="img/drone.png" alt="rl_project" data-toggle="modal" data-target="#teach_quadcopter">
-            <h3 class="title">Teach a Quadcopter How to Fly</h3>
         </article>
     </section>
 
@@ -143,9 +155,78 @@
                      alt="profile_picture">
                 <article>
                     <h4 class="large text-center">
-                    I am a Machine Learning and Business Analytics enthusiast. I am an active self-learner who is fascinated with technology-powered products. I’d love to combine my passion for technology-powered products with my professional skills to continue delivering great products to people.
+                    I am a Machine Learning and Data Science enthusiast. I am an active self-learner who is fascinated with technology-powered products. I’d love to combine my passion for technology-powered products with my professional skills to continue delivering great products to people.
                     </h4>
                 </article>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="sentiment_analysis" role="dialog">
+    <div class="modal-dialog">
+        <!-- Sentiment Analysis of Customers' Reviews -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">Sentiment Analysis of Customers' Reviews</h3>
+            </div>
+            <div class="modal-body">
+                <img class="portfolio-img img-responsive" src="img/customer_review.png" alt="capstone_project">
+                <hr>
+                <p>A Multi-channel Convolutional Neural Network for Text Classification.</p>
+                <p>This project leverages Deep Neural Network to build a model to detect customers' emotional tone in their reviews on an e-commerce site.</p>
+                <p class="project-link"><i class="fa fa-github fa-lg" aria-hidden="true"></i>
+                <a href="https://github.com/felixhllou/Udacity_Machine_Learning/tree/master/Capstone_Project" target="_blank">View on GitHub</a></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="teach_quadcopter" role="dialog">
+    <div class="modal-dialog">
+        <!-- Teach a Quadcopter How to Fly -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">Teach a Quadcopter How to Fly</h3>
+            </div>
+            <div class="modal-body">
+                <img class="portfolio-img img-responsive" src="img/drone.png" alt="rl_project">
+                <hr>
+                <p>A Reinforcement Learning agent trained to fly a quadcopter.</p>
+                <p>This project leverages an actor-critic, model-free algorithm based on the deterministic policy gradient (DPG) to train the agent to hover.</p>
+                <p class="project-link"><i class="fa fa-github fa-lg" aria-hidden="true"></i>
+                <a href="https://github.com/felixhllou/Udacity_Machine_Learning/blob/master/P5_Teach_a_Quadcopter_How_to_Fly/Quadcopter_Project.ipynb" target="_blank">View on GitHub</a></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="ab_test" role="dialog">
+    <div class="modal-dialog">
+        <!-- A/B Testing on New Order Allocation System -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">A/B Testing on New Order Allocation System</h3>
+            </div>
+            <div class="modal-body">
+                <img class="portfolio-img img-responsive" src="img/ab_test.png" alt="consultation_project">
+                <hr>
+                <p>The effectiveness of a new system.</p>
+                <p>This project leverages statistical hypothesis testing on the new system of a logistic player to see if the system is indeed effective.</p>
+                <p class="project-link"><i class="fa fa-github fa-lg" aria-hidden="true"></i>
+                <a href="https://github.com/felixhllou/effectiveness_of_new_system" target="_blank">View on GitHub</a></p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -287,29 +368,6 @@
                 <p>This project leverages Generative Adversarial Network to generate new images of faces of celebrities.</p>
                 <p class="project-link"><i class="fa fa-github fa-lg" aria-hidden="true"></i>
                 <a href="https://github.com/felixhllou/Udacity_Deep_Learning/blob/master/P4_Face_Generation/dlnd_face_generation.ipynb" target="_blank">View on GitHub</a></p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade" id="teach_quadcopter" role="dialog">
-    <div class="modal-dialog">
-        <!-- Teach a Quadcopter How to Fly -->
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h3 class="modal-title">Teach a Quadcopter How to Fly</h3>
-            </div>
-            <div class="modal-body">
-                <img class="portfolio-img img-responsive" src="img/drone.png" alt="rl_project">
-                <hr>
-                <p>A Reinforcement Learning agent trained to fly a quadcopter.</p>
-                <p>This project leverages an actor-critic, model-free algorithm based on the deterministic policy gradient (DPG) to train the agent to hover.</p>
-                <p class="project-link"><i class="fa fa-github fa-lg" aria-hidden="true"></i>
-                <a href="https://github.com/felixhllou/Udacity_Machine_Learning/blob/master/P5_Teach_a_Quadcopter_How_to_Fly/Quadcopter_Project.ipynb" target="_blank">View on GitHub</a></p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
